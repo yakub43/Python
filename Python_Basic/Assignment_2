@@ -1,1 +1,80 @@
+1.What are the two values of the Boolean data type? How do you write them?
+In boolean we have two values which are true and false.
 
+2. What are the three different types of Boolean operators?
+We have OR , AND and NOT boolean operator because this operators will return true and false values.
+lets see each operator here A and B is input, C is Output.
+OR boolean operator -> this operator will return true if any one input is true
+
+A  B   C
+0  0   0
+0  1   1
+1  0   1
+1  1   1
+
+AND Boolean Operator -> this operator will return only true when every input is true oterwise it will return false.
+A  B   C
+0  0   0
+0  1   0
+1  0   0
+1  1   1
+
+NOT Boolean Operator -> This operator will coplement the input if it is true it will false vice versa.
+A   C
+0   1
+1   0
+
+3. Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean
+values for the operator and what it evaluate ).
+OR boolean operator -> this operator will return true if any one input is true
+
+A  B   C
+0  0   0
+0  1   1
+1  0   1
+1  1   1
+
+AND Boolean Operator -> this operator will return only true when every input is true oterwise it will return false.
+A  B   C
+0  0   0
+0  1   0
+1  0   0
+1  1   1
+
+NOT Boolean Operator -> This operator will coplement the input if it is true it will false vice versa.
+A   C
+0   1
+1   0
+
+4. What are the values of the following expressions?
+(5 > 4) and (3 == 5) -> False
+not (5 > 4)  -> False
+(5 > 4) or (3 == 5) -> True
+not ((5 > 4) or (3 == 5)) -> False
+(True and True) and (True == False) -> False
+(not False) or (not True) -> True
+
+5. What are the six comparison operators?
+i) == Equals operator this operator will compare values from both side.
+   5 == 5 -> this will return True
+   5 == 4 -> this will return False
+ii) > Greater than Operator, This operator will compare the left side value with right side value.
+    10 > 5 -> This will return True
+    10 < 20 -> This will return False
+iii) < less Than Operator, This opeartor will compare left side value with right side value.
+    6 < 8 -> This will return True
+    8 < 10 -> This will return False
+iv) <= Less Than Equal to , This opeartor will check if left side value is less than or equal to the right side value
+    4 <= 3 -> This will return false
+    6 <= 10 -> This will return True
+    8 <= 8 -> This will return True
+v) >= Greater than equal to, This operator will check if left side value is greater than or equal to right side value.
+   5 >= 10 -> This will return False
+   7 >= 4 -> This will return True
+   6 >= 6 -> This will return True
+vi) != Not Equal to, This operator will check if the values are equal to or not
+    7 != 6 -> This will return True
+    8 != 8 -> This will return False
+    
+6. How do you tell the difference between the equal to and assignment operators?Describe a
+condition and when you would use one.
