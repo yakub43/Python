@@ -78,3 +78,61 @@ vi) != Not Equal to, This operator will check if the values are equal to or not
     
 6. How do you tell the difference between the equal to and assignment operators?Describe a
 condition and when you would use one.
+Assignment(=) operator is used to assgin a value to the variable
+But in equal to operator (==) we are comparing left side value with right side value.
+If I just want to initialize a variable with any value i Will use Assignment operator. -> num = 10
+If I want to compare thw two values i will use equal to operator. -> 10 == 10
+
+7. Identify the three blocks in this code:
+As we know pyhton is indentaion sensitive language we should take care of this while writing code.
+spam = 0
+if spam == 10:   ----> Firts Block
+print('eggs') 
+if spam > 5:    -----> Second Block
+print('bacon')  
+else:           -------> Third Block
+print('ham')   
+print('spam')
+print('spam')
+
+8. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints
+Greetings! if anything else is stored in spam.
+
+spam = 1
+if (spam == 1):
+   print("Hello")
+elif (spam == 2):
+   print("Howdy")
+else:
+   print("Greetings!")
+
+9.If your programme is stuck in an endless loop, what keys you’ll press?
+Ctr + C
+
+10. How can you tell the difference between break and continue?
+Break ->
+      When we want to come out of loop use Break.
+      This will break the current loop and we come out of loop.
+Continue -> 
+       When we want skip next line after continue statement at specific condition use Continue.
+ 
+11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
+range(10) -> This will print 10 numbers 0 to 9.
+range(0,10) -> Here we have give starting index from where we want to start 0 to end at 10 , This will also print 0 to 9 total 10 numbers.
+range(0,10,1) -> Here we have give starting index, last index, and steps means how much steps to do , this will print 0 to 9 total 10 numbers.
+
+12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent
+program that prints the numbers 1 to 10 using a while loop.
+for loop ->
+          for i in range(1,11):
+             print(i)
+             
+while loop ->
+          num = 1
+          while(num < 11):
+             print(num)
+             num += 1
+
+13. If you had a function named bacon() inside a module named spam, how would you call it after
+importing spam?
+spam.bacon()
