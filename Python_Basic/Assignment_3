@@ -1,0 +1,33 @@
+1. Why are functions advantageous to have in your programs?
+--> Functions are can be very useful while doing coding/Programming
+    as it will help to reduce coding line by not writing redundant code
+    Our program will look neat and clean as we are not repeating
+    same statement again and again.
+   
+2. When does the code in a function run: when it's specified or when it's called?
+--> When we called the function at that time the function body is run.
+
+3. What statement creates a function?
+--> the def keyword is used the define/create a function.
+    if u just create a function without a body it can show error
+    so one can write pass in the body.
+
+4. What is the difference between a function and a function call?
+--> Function is the set of statements which will do specific task.
+    But when we call a function the function will execute the statement
+    written in function body.
+    
+5. How many global scopes are there in a Python program? How many local scopes?
+--> In python there is only one global scope per program.
+    In local scopes if variable or function defined inside a
+    function it's scope will only local scope means we can't be 
+    able to see that varaible outside of that function. in local
+    scope python will search for first Local scope->global->builtin
+  
+6. What happens to variables in a local scope when the function call returns?
+--> The return will statement will return the value from the function i.e. 
+    after manipulating/executing the statement inside the body of function
+    at last we will get that manipulated value from function with the help
+    of return statement.
+    
+7. What is the concept of a return value? Is it possible to have a return value in an expression?
