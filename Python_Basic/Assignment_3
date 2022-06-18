@@ -31,3 +31,38 @@
     of return statement.
     
 7. What is the concept of a return value? Is it possible to have a return value in an expression?
+--> Concept of return statement is simple, let takes an example, I wrote a one function which will 
+    do addition of two numbers and that addition, after getting the addition from the function I want
+    to multiply the addition with any number, so to that we will use return in our function because return 
+    statement will give us primitive data types so we can able to perform operation on it, if we use
+    print statement it will return none type so we will not be abale to perform operation on it.
+    Yes we can return a value by using expression.
+ 
+ 8. If a function does not have a return statement, what is the return value of a call to that function?
+ --> if function does not contain return statement, by default it's return value would be NoneType.
+ 
+9. How do you make a function variable refer to the global variable?
+--> Let suppose you want to make a local variable to be a gloabl variable, so to do
+    that we will use global in before  variabale to make it's scope global.
+    
+ 10. What is the data type of None?
+ --> None type of data is a null value, means it cannot be 0 or false , or empty string.
+ 
+ 11. What does the sentence import are allyourpetsnamederic do?
+ --> we use import statement to import a already written module, so we can use features/function of that particular
+    module. so, here we are importing a module names allyourpetsnamederic.
+   
+ 12. If you had a bacon() feature in a spam module, what would you call it after importing spam?
+ --> import spam --> spam.bacon()
+ 
+ 13. What can you do to save a programme from crashing if it encounters an error?
+ --> To avoid crashing a program, in python there is concept called exception handling,
+     by using this concept we are abale to control our flow of programme.
+ 
+ 14. What is the purpose of the try clause? What is the purpose of the except clause?
+ --> If suppose we are writing a program and we don't know about the error, or we expect that
+     some lines of code may raise a error in program so to save our programm getting crashed we write
+     those lines of code in try block.
+     let suppose that, the lines of code that we had wrote in try block, raise an error, so to
+     handle this error we used except block, so tha our programm runs smoothly, without any
+     interrpution.
